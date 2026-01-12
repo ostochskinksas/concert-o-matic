@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd bin/
+
+javac ../src/*/*.java
+
+cd ../
+java  src/main/Program.java
