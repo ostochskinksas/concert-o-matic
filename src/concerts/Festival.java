@@ -6,7 +6,7 @@ public class Festival {
     private Date endDate;
     private Concert[] festivalDays;
 
-    private int price;
+    //private int price;
 
 
     public Festival(int nbrOfDays, Date startDate, Date endDate, Concert[] festivalDays) {

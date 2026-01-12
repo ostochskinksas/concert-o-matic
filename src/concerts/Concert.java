@@ -7,7 +7,7 @@ public class Concert {
     private Venue venue;
     private String tour;
 
-    private int price;
+    // private int price;
 
 
     public Concert(Date date, Show[] bands, Venue venue) {
