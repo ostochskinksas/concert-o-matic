@@ -1,10 +1,10 @@
-package concerts;
+package concerts.location;
 
 public class City {
     private String name;
-    private String country;
+    private Country country;
 
-    public City(String name, String country) {
+    public City(String name, Country country) {
         this.name    = name;
         this.country = country;
     }
@@ -13,7 +13,7 @@ public class City {
         return name;
     }
 
-    public String country() {
+    public Country country() {
         return country;
     }
 }

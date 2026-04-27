@@ -1,5 +1,10 @@
 package concerts;
 
+import concerts.location.Venue;
+
+/** 
+ * A concert, usually consisting of multiple bands playing shows. 
+*/
 public class Concert {
     private Date date;
     private int nbrOfBands;

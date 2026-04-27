@@ -1,4 +1,4 @@
-package concerts;
+package concerts.location;
 
 public class Venue {
     private String name;
